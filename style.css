@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFE7EE;
+    font-family: "Inter";
+    text-align: center;
+}
+
+.img img{
+    width: 30vw;
+}
+
+.text{
+    font-size: 2.7rem;
+    margin-bottom: 1.7rem;
+}
+
+.buttons button{
+    outline: none;
+    border: none;
+}
+
+.yes{
+    background-color: #92CF83;
+    color: #ffffff;
+    margin-right: 2rem;
+    padding: 0 5rem;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    box-shadow: 0 3px 6px rgba(129, 129, 129, 0.73);
+}
+.yes:hover{
+    background-color: #71C764;
+}
+
+.no{
+    background-color: #FF8484;
+    color: #ffffff;
+    padding: 0 5.3rem;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    box-shadow: 0 3px 6px rgba(129, 129, 129, 0.73);
+}
+.no:hover {
+    background-color: #FF5F5F;
+}
